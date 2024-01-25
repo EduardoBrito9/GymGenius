@@ -5,11 +5,13 @@ import './App.css'
 import Header from './Componentes/Header';
 
 const App = () => {
+  const [informations, setInformations] = React.useState(false);
+
   return (
     <BrowserRouter>
-    <Header />
+    <Header setInformations={setInformations} informations={informations} />
     <Routes>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/' element={<Home informations={informations}/>}/>
     </Routes>
     </BrowserRouter>
   )

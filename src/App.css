@@ -6,13 +6,13 @@
 
 :root {
   --white: #f9f9f9;
-  --red:rgb(245, 29, 1);
+  --red: rgb(245, 29, 1);
+  --grey: rgb(124, 124, 124);
 }
 
 body {
   margin: 0px;
   color: #333;
-  padding-top: 1.2rem;
   background-color: #070807;
 }
 
@@ -20,9 +20,10 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+span {
   margin: 0px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 
 ul,

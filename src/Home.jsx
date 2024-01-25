@@ -1,8 +1,12 @@
-import React from 'react'
 
-const Home = () => {
+import React from 'react'
+import AboutLeft from './Componentes/AboutLeft'
+
+const Home = ({informations}) => {
   return (
-    <div></div>
+    <div>
+      <AboutLeft informations={informations}/>
+      </div>
   )
 }
 

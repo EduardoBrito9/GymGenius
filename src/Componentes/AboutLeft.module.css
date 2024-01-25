@@ -1,0 +1,33 @@
+.aboutLeft{
+    background-color: aliceblue;
+    max-width: 400px;
+    height: 100vh;
+    position: fixed;
+    animation: opening 0.5s forwards;
+    z-index: 99999;
+    padding:45px;
+}
+
+
+@keyframes opening {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: initial;
+    }
+}
+
+.closedAbout {
+    animation:closing .5s forwards ;
+}
+
+@keyframes closing {
+    from {
+        transform: initial;
+    }
+    to {
+        transform: translateX(-500px);
+    }
+}
+

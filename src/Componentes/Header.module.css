@@ -5,7 +5,8 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  padding: 0rem 2rem;
+  padding: 1rem 2rem;
+  position: fixed;
 }
 
 .navegation img {
@@ -31,17 +32,51 @@
 
 .userLog {
   justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.userLog svg {
-  height: 35px;
+.userANDabout {
+  display: flex;
+  gap: 1rem;
+}
+
+.userANDabout svg {
+  height: 27px;
   transition: 0.1s;
 }
 
-.userLog:hover svg path,
-.userLog:hover  {
+.userANDabout svg path {
+  color: white;
+  fill: white;
+}
+
+.userANDabout svg:hover path,
+.userANDabout svg:hover {
   color: var(--red);
   fill: var(--red);
   cursor: pointer;
   transition: 0.1s;
+}
+
+.clientPlan {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--grey);
+  padding: 0.4rem 0.5rem;
+  cursor: pointer;
+}
+
+.clientPlan svg {
+  height: 35px;
+  background-color: red;
+  background-size: contain;
+}
+
+.clientPlan span {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
