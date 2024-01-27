@@ -1,33 +1,71 @@
-.aboutLeft{
-    background-color: aliceblue;
-    max-width: 400px;
-    height: 100vh;
-    position: fixed;
-    animation: opening 0.5s forwards;
-    z-index: 99999;
-    padding:45px;
+@import "../App.css";
+
+.aboutLeft {
+  background-color: white;
+  max-width: 400px;
+  height: 100vh;
+  position: fixed;
+  z-index: 99999;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  animation: opening 0.5s forwards;
 }
 
-
 @keyframes opening {
-    from {
-        transform: translateX(-500px);
-    }
-    to {
-        transform: initial;
-    }
+  from {
+    transform: translateX(-2500px);
+  }
+  to {
+    transform: initial;
+  }
 }
 
 .closedAbout {
-    animation:closing .5s forwards ;
+  animation: closing 0.5s forwards;
 }
 
 @keyframes closing {
-    from {
-        transform: initial;
-    }
-    to {
-        transform: translateX(-500px);
-    }
+  from {
+    transform: initial;
+  }
+  to {
+    transform: translateX(-2500px);
+  }
 }
 
+.init {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.init img {
+  height: 90px;
+}
+
+.buttonClose {
+  border: 0;
+  background-color: transparent;
+}
+
+.buttonClose svg {
+  height: 20px;
+  width: 20px;
+}
+
+.aboutPart {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.4rem;
+}
+
+.aboutPart h3 {
+  font-size: 1.3rem;
+}
+.aboutPart p {
+  font-size: 0.99rem;
+  max-width: 300px;
+}

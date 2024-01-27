@@ -1,22 +1,39 @@
 import React, { useRef } from "react";
 import styles from "./AboutLeft.module.css";
+import Close from "../../images/Close.svg?react";
 
-const AboutLeft = ({ informations }) => {
+const AboutLeft = ({ informations, setInformations }) => {
   const aboutRef = useRef();
+
   React.useEffect(() => {
     if (informations) {
-      console.log(aboutRef);
-      aboutRef.current.classList.add(`${styles.aboutLeft}`);
       aboutRef.current.classList.remove(`${styles.closedAbout}`);
+      aboutRef.current.classList.add(`${styles.aboutLeft}`);
     } else if (!informations) {
       aboutRef.current.classList.add(`${styles.closedAbout}`);
     }
-  }, [informations]);
+  }, [informations, setInformations]);
+
+  function close() {
+    setInformations(false);
+  }
 
   return (
-    <section>
-      <div ref={aboutRef} className={`${styles.aboutLeft} `}>
-        Menuuuuuuuuuuu
+    <section ref={aboutRef}>
+      <div className={styles.init}>
+        <img src="../Images/gymweight.png" alt="" />
+        <button className={styles.buttonClose}>
+          <Close onClick={close} />
+        </button>
+      </div>
+      <div className={styles.aboutPart}>
+        <h3>About us</h3>
+        <p>
+          Find out who we are and what makes us unique. We are a
+          community-driven gym committed to providing personalized fitness
+          experiences for all levels of fitness enthusiasts in a welcoming and
+          supportive environment.
+        </p>
       </div>
     </section>
   );

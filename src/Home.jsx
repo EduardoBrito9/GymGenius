@@ -1,13 +1,15 @@
+import React from "react";
+import AboutLeft from "./Componentes/AboutLeft";
 
-import React from 'react'
-import AboutLeft from './Componentes/AboutLeft'
-
-const Home = ({informations}) => {
+const Home = ({ informations, setInformations }) => {
   return (
     <div>
-      <AboutLeft informations={informations}/>
-      </div>
-  )
-}
+      <AboutLeft
+        informations={informations}
+        setInformations={setInformations}
+      />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
