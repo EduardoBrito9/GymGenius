@@ -8,6 +8,7 @@
   --white: #f9f9f9;
   --red: rgb(245, 29, 1);
   --grey: rgb(124, 124, 124);
+  --borderWhite: hsla(0, 0%, 100%, 0.362);
 }
 
 body {
@@ -21,7 +22,8 @@ h2,
 h3,
 h4,
 p,
-span {
+span,
+button {
   margin: 0px;
   font-family: "Montserrat";
 }

@@ -23,6 +23,7 @@
 }
 
 .closedAbout {
+  position: fixed;
   animation: closing 0.5s forwards;
 }
 

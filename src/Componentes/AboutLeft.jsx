@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import styles from "./AboutLeft.module.css";
 import Close from "../../images/Close.svg?react";
 
-const AboutLeft = ({ informations, setInformations}) => {
+const AboutLeft = ({ informations, setInformations }) => {
   const aboutRef = useRef();
 
   React.useEffect(() => {
@@ -19,7 +19,7 @@ const AboutLeft = ({ informations, setInformations}) => {
   }
 
   return (
-    <section ref={aboutRef} className="check">
+    <section ref={aboutRef} className={`check`}>
       <div className={styles.init}>
         <img src="../Images/gymweight.png" alt="" />
         <button className={styles.buttonClose}>
