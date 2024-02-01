@@ -1,0 +1,35 @@
+.buttonClass {
+  font-size: 0.94rem;
+  font-weight: bold;
+  padding: 1.1rem 1.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: fit-content;
+  background-color: var(--white);
+  margin-top: 35px;
+  border: 0;
+}
+
+.buttonClass svg {
+  height: 20px;
+}
+
+.buttonClass::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  height: 3.2rem;
+  width: 11.5rem;
+  border: 1px solid var(--borderWhite);
+  transition: 0.5s;
+}
+
+.buttonClass:hover::after {
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  transition: 0.5s;
+  cursor: pointer;
+}

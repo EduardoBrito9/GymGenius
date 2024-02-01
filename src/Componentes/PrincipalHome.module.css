@@ -1,0 +1,112 @@
+.principal {
+  background-image: url(https://gymate-iota.vercel.app/static/media/hero-img.40c8355a31f73340b733.jpg);
+  background-position: 50%;
+  background-size: cover;
+  height: 110vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.comerce {
+  position: absolute;
+  right: 2%;
+  top: 40%;
+  display: grid;
+  grid-template-columns: 2fr minmax(50px, 1fr);
+  gap: 0.5rem;
+}
+
+.ad {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.find {
+  color: var(--white);
+  width: max-content;
+  padding: 0.7rem 1.5rem;
+  background: url("https://gymate-iota.vercel.app/static/media/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg")
+    center center no-repeat;
+}
+
+.makeTitle {
+  font-size: 3rem;
+  color: var(--white);
+  line-height: 4rem;
+}
+
+.skinny {
+  font-weight: 300;
+}
+
+.buttonClass {
+  font-size: 0.94rem;
+  font-weight: bold;
+  padding: 1rem 1.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: fit-content;
+  background-color: var(--white);
+  margin-top: 35px;
+}
+
+.buttonClass svg {
+  height: 20px;
+}
+
+.buttonClass::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  height: 3.2rem;
+  width: 11.8rem;
+  border: 1px solid var(--borderWhite);
+  transition: 0.5s;
+}
+
+.buttonClass:hover::after {
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.market {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+  width: fit-content;
+  justify-self: end;
+}
+
+.market p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: fit-content;
+  rotate: -90deg;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 0.8rem;
+  rotate: 90deg;
+}
+
+.socialMedia svg {
+  rotate: -90deg;
+  height: 20px;
+}
+
+.line {
+  display: block;
+  width: 3px;
+  height: 35px;
+  background-color: var(--red);
+}

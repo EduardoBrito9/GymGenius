@@ -3,10 +3,13 @@
 .navegation {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  height:100px;
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
   position: fixed;
+  background: var(--black);
+  z-index: 90000000;
 }
 
 .navegation img {
