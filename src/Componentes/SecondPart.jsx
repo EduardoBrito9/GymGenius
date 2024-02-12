@@ -5,6 +5,10 @@ import Timer from "../../images/Timer.svg?react";
 import Exercise from "../../images/Exercise.svg?react";
 import Button from "./Button";
 import Arrow from "../../images/Arrow.svg?react";
+import Machine from "../../images/machine.svg?react";
+import Modern from "../../images/modern.svg?react";
+import Professional from "../../images/ProfessionalWeight.svg?react";
+
 
 const SecondPart = () => {
   return (
@@ -40,12 +44,24 @@ const SecondPart = () => {
         <div className={styles.whoweare}>
           <div className={styles.takeatour}>
             <p className={styles.titlewho}>WHO WE ARE</p>
+            <div>
             <h1>Take Your Health And Body To Next Level </h1>
             <p className={styles.textHealth}>
               Take your health and body to the next level with our comprehensive
               program designed to help you reach your fitness goals.
             </p>
-            <div className={styles.types}></div>
+            </div>
+       
+            <div className={styles.types}>
+
+            <div className={styles.someMov}><Professional/>
+            <h2>PROFESSIONAL TRAINER</h2>
+            </div>
+            <div className={styles.someMov}><Modern/>
+            <h2>MODERN EQUIPAMENTS</h2></div>
+            <div className={styles.someMov}><Machine/>
+            <h2>FANCY GYM MACHINES</h2></div>
+            </div>
             <Button>
               TAKE A TOUR <Arrow />
             </Button>

@@ -5,12 +5,42 @@
   max-width: 400px;
   height: 100vh;
   position: fixed;
-  z-index: 99999;
+  z-index: 1111199999;
   padding: 50px;
   display: flex;
   flex-direction: column;
   gap: 4rem;
   animation: opening 0.5s forwards;
+}
+.aboutCC {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.aboutCC::-webkit-scrollbar {
+  width: 10px; 
+}
+
+
+.aboutCC::-webkit-scrollbar-button {
+  background-color: white; 
+}
+
+
+.aboutCC::-webkit-scrollbar-track {
+  background-color: #ffffff; 
+}
+
+
+.aboutCC::-webkit-scrollbar-thumb {
+  background-color: var(--red); 
+  border-radius: 5px; 
+}
+
+
+.aboutCC::-webkit-scrollbar-corner {
+  background-color: white; 
 }
 
 @keyframes opening {
@@ -70,4 +100,82 @@
 .aboutPart p {
   font-size: 0.99rem;
   max-width: 300px;
+}
+
+/*gallery*/
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem;
+}
+
+.photos img {
+  border-radius: 10px;
+}
+
+/*contact*/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.infs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.infs p {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--blackBack);
+  font-size: 0.99rem;
+}
+
+.infs p:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.infs p svg {
+  width: 23px;
+  height: 23px;
+}
+
+/*Follow us*/
+
+.followUs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.midias {
+  display: flex;
+  gap: 1rem;
+}
+
+.midias button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9rem;
+  border-radius: 55%;
+  background-color: var(--red);
+  border: 0;
+}
+
+.midias button svg {
+  width: 26px;
+  height: 25px;
 }
