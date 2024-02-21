@@ -1,0 +1,190 @@
+.fourthPart {
+  background-image: url("https://gymate-iota.vercel.app/static/media/choose-bg.a67baa2e570e11a494d3.jpg");
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.internContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 4rem 2rem 0rem 0rem;
+}
+
+.redAd {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-left: 25rem;
+  gap: 2rem;
+  background-image: url("https://gymate-iota.vercel.app/static/media/cta-bg.0bd0c066aa8b6eac570c.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 13rem;
+  position: relative;
+}
+
+.redAd h1 {
+  font-size: 2.2rem;
+  max-width: 650px;
+  color: var(--white);
+}
+
+.redAd button {
+  font-size: 1rem;
+  padding: 1.1rem 2.5rem;
+  margin: 0;
+}
+
+.redAd button::after {
+  bottom: 90px;
+  left: 57.2%;
+  height: 3.3rem;
+  width: 12.4rem;
+}
+
+.redAd button:hover::after {
+  bottom: 75px;
+  left: 56.3%;
+}
+
+/*principal part*/
+
+.GiveShape {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.wecan {
+  display: flex;
+  flex-direction: column;
+  max-width: 48rem;
+  gap: 1rem;
+}
+
+.wecan h1 {
+  color: var(--white);
+  font-size: 2.5rem;
+}
+
+.wecan p {
+  font-size: 1.1rem;
+  color: var(--grey);
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.typesWe {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.typesWe img {
+  border-radius: 50%;
+  padding: 0.7rem;
+  height: 4.3rem;
+  background-color: rgb(43 43 43);
+}
+
+.typesWe img:hover {
+  background-color: var(--redBlack);
+  transition: 0.4s;
+}
+
+.typesWe h3 {
+  max-width: 8.5rem;
+  line-height: 27px;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.whychoose {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.whychoose button {
+  font-size: 1rem;
+  padding: 1.1rem 2.5rem;
+  margin: 0;
+}
+
+.whychoose button::after {
+  bottom: 40px;
+  left: 3%;
+  height: 3.4rem;
+  width: 12.2rem;
+}
+
+.whychoose button:hover::after {
+  bottom: 24px;
+  left: 0%;
+}
+
+/*Video part*/
+
+.videoDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoDiv::before {
+  content: "";
+  position: absolute;
+  left: -5%;
+  bottom: 1%;
+  height: 250px;
+  width: 10px;
+  background-color: var(--redBlack);
+}
+
+.videoDiv::after {
+  content: "";
+  position: absolute;
+  right: 0%;
+  rotate: -7deg;
+  height: 500px;
+  width: 10px;
+  background-color: var(--redBlack);
+}
+
+.buttonPlayer {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.8rem;
+  height: 4.8rem;
+  top: 38%;
+  left: 38%;
+  background-color: var(--white);
+}
+
+.buttonPlayer img {
+  height: 1.8rem;
+}
+
+.buttonPlayer:hover {
+  cursor: pointer;
+  background-color: var(--grey);
+  transition: 0.4s;
+}

@@ -4,6 +4,7 @@ import styles from "./Home.module.css";
 import PrincipalHome from "./PrincipalHome";
 import SecondPart from "./SecondPart";
 import ThirdPart from "./ThirdPart";
+import FourthPart from "./FourthPart";
 
 const Home = ({ informations, setInformations }) => {
   function checkingClick(event) {
@@ -22,7 +23,8 @@ const Home = ({ informations, setInformations }) => {
       />
       <PrincipalHome />
       <SecondPart />
-      <ThirdPart/>
+      <ThirdPart />
+      <FourthPart />
     </section>
   );
 };

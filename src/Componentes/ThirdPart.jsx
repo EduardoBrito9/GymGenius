@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./ThirdPart.module.css";
+import P from "./P";
 
 const ThirdPart = () => {
   return (
     <section className={styles.thirdPart}>
       <section className={styles.internContainer}>
-        <p>OUR FEATURED CLASS</p>
+        <P>OUR FEATURED CLASS</P>
         <h1 className={styles.offering}>
           We Are Offering Best Flexible Classes
         </h1>

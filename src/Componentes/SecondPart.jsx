@@ -8,7 +8,7 @@ import Arrow from "../../images/Arrow.svg?react";
 import Machine from "../../images/machine.svg?react";
 import Modern from "../../images/modern.svg?react";
 import Professional from "../../images/ProfessionalWeight.svg?react";
-
+import P from "./P";
 
 const SecondPart = () => {
   return (
@@ -43,24 +43,29 @@ const SecondPart = () => {
 
         <div className={styles.whoweare}>
           <div className={styles.takeatour}>
-            <p className={styles.titlewho}>WHO WE ARE</p>
+            <P>WHO WE ARE</P>
             <div>
-            <h1>Take Your Health And Body To Next Level </h1>
-            <p className={styles.textHealth}>
-              Take your health and body to the next level with our comprehensive
-              program designed to help you reach your fitness goals.
-            </p>
+              <h1>Take Your Health And Body To Next Level </h1>
+              <p className={styles.textHealth}>
+                Take your health and body to the next level with our
+                comprehensive program designed to help you reach your fitness
+                goals.
+              </p>
             </div>
-       
-            <div className={styles.types}>
 
-            <div className={styles.someMov}><Professional/>
-            <h2>PROFESSIONAL TRAINER</h2>
-            </div>
-            <div className={styles.someMov}><Modern/>
-            <h2>MODERN EQUIPAMENTS</h2></div>
-            <div className={styles.someMov}><Machine/>
-            <h2>FANCY GYM MACHINES</h2></div>
+            <div className={styles.types}>
+              <div className={styles.someMov}>
+                <Professional />
+                <h2>PROFESSIONAL TRAINER</h2>
+              </div>
+              <div className={styles.someMov}>
+                <Modern />
+                <h2>MODERN EQUIPAMENTS</h2>
+              </div>
+              <div className={styles.someMov}>
+                <Machine />
+                <h2>FANCY GYM MACHINES</h2>
+              </div>
             </div>
             <Button>
               TAKE A TOUR <Arrow />

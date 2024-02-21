@@ -5,12 +5,9 @@ import User from "../../images/user.svg?react";
 import AboutUs from "../../images/AboutUs.svg?react";
 import Plus from "../../images/Plus.svg?react";
 
-const Header = ({setInformations, informations}) => {
-
- 
-
-  function about(){
-    setInformations(!informations)
+const Header = ({ setInformations, informations }) => {
+  function about() {
+    setInformations(!informations);
   }
   return (
     <nav className={styles.navegation}>
@@ -46,7 +43,7 @@ const Header = ({setInformations, informations}) => {
       <div className={styles.userLog}>
         <div className={styles.userANDabout}>
           <User />
-          <AboutUs onClick={about}/>
+          <AboutUs onClick={about} />
         </div>
 
         <div className={styles.clientPlan}>

@@ -99,15 +99,6 @@
   position: relative;
 }
 
-.titlewho {
-  color: var(--white);
-  width: max-content;
-  padding: 1rem 3rem;
-  background: url("https://gymate-iota.vercel.app/static/media/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg")
-    center center no-repeat;
-  font-weight: 700;
-}
-
 .takeatour h1 {
   font-size: 2rem;
   font-weight: 800;
