@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
 import styles from "./AboutLeft.module.css";
-import Close from "../../images/Close.svg?react";
-import Location from "../../images/Location.svg?react";
-import Telephone from "../../images/Telephone.svg?react";
-import Email from "../../images/EmailContact.svg?react";
-import Facebook from "../../images/Facebook.svg?react";
-import Twitter from "../../images/Twitter.svg?react";
+import Close from "../../../images/Close.svg?react";
+import Location from "../../../images/Location.svg?react";
+import Telephone from "../../../images/Telephone.svg?react";
+import Email from "../../../images/EmailContact.svg?react";
+import Facebook from "../../../images/Facebook.svg?react";
+import Twitter from "../../../images/Twitter.svg?react";
 
 
 

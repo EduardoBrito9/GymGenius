@@ -1,10 +1,11 @@
 import React from "react";
-import AboutLeft from "./AboutLeft";
+import AboutLeft from "./HomeParts/AboutLeft";
 import styles from "./Home.module.css";
-import PrincipalHome from "./PrincipalHome";
-import SecondPart from "./SecondPart";
-import ThirdPart from "./ThirdPart";
-import FourthPart from "./FourthPart";
+import PrincipalHome from "./HomeParts/PrincipalHome";
+import SecondPart from "./HomeParts/SecondPart";
+import ThirdPart from "./HomeParts/ThirdPart";
+import FourthPart from "./HomeParts/FourthPart";
+import FifthPart from "./HomeParts/FifthPart";
 
 const Home = ({ informations, setInformations }) => {
   function checkingClick(event) {
@@ -25,6 +26,7 @@ const Home = ({ informations, setInformations }) => {
       <SecondPart />
       <ThirdPart />
       <FourthPart />
+      <FifthPart/>
     </section>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Componentes/Home";
 import "./App.css";
-import Header from "./Componentes/Header";
+import Header from "./Componentes/Elements/Header";
 
 const App = () => {
   const [informations, setInformations] = React.useState(false);

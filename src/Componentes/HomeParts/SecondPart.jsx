@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./SecondPart.module.css";
-import List from "../../images/List.svg?react";
-import Timer from "../../images/Timer.svg?react";
-import Exercise from "../../images/Exercise.svg?react";
-import Button from "./Button";
-import Arrow from "../../images/Arrow.svg?react";
-import Machine from "../../images/machine.svg?react";
-import Modern from "../../images/modern.svg?react";
-import Professional from "../../images/ProfessionalWeight.svg?react";
-import P from "./P";
+import List from "../../../images/List.svg?react";
+import Timer from "../../../images/Timer.svg?react";
+import Exercise from "../../../images/Exercise.svg?react";
+import Button from "../Elements/Button";
+import Arrow from "../../../images/Arrow.svg?react";
+import Machine from "../../../images/machine.svg?react";
+import Modern from "../../../images/modern.svg?react";
+import Professional from "../../../images/ProfessionalWeight.svg?react";
+import P from "../Elements/P";
 
 const SecondPart = () => {
   return (

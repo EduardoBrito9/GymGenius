@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./PrincipalHome.module.css";
-import Arrow from "../../images/Arrow.svg?react";
-import Facebook from "../../images/Facebook.svg?react";
-import Twitter from "../../images/Twitter.svg?react";
-import Linkedin from "../../images/Linkedin.svg?react";
-import Button from "./Button";
-import P from "./P";
+import Arrow from "../../../images/Arrow.svg?react";
+import Facebook from "../../../images/Facebook.svg?react";
+import Twitter from "../../../images/Twitter.svg?react";
+import Linkedin from "../../../images/Linkedin.svg?react";
+import Button from "../Elements/Button";
+import P from "../Elements/P";
 
 const PrincipalHome = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ThirdPart.module.css";
-import P from "./P";
+import P from "../Elements/P";
 
 const ThirdPart = () => {
   return (

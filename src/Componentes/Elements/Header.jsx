@@ -1,9 +1,9 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
-import User from "../../images/user.svg?react";
-import AboutUs from "../../images/AboutUs.svg?react";
-import Plus from "../../images/Plus.svg?react";
+import User from "../../../images/user.svg?react";
+import AboutUs from "../../../images/AboutUs.svg?react";
+import Plus from "../../../images/Plus.svg?react";
 
 const Header = ({ setInformations, informations }) => {
   function about() {
