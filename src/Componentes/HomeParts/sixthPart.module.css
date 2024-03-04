@@ -1,0 +1,138 @@
+.sixthPart {
+  background: var(--white);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  object-fit: cover;
+}
+
+.internContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin: 0 auto;
+  max-width: 85rem;
+  padding: 0rem 4rem 4rem 4rem;
+}
+
+.ceoBorder {
+  border: 6px solid rgb(226, 226, 226);
+  background-color: var(--white);
+  width: 100%;
+  padding: 4rem;
+}
+
+.ceoOpinion {
+  display: flex;
+  background-color: var(--black);
+  position: relative;
+  z-index: 0;
+}
+.girlFit {
+  position: absolute;
+  bottom: 0px;
+  border-top-right-radius: 50%;
+}
+
+.aboveText {
+  height: 50px;
+  width: 60px;
+}
+
+.textCeo {
+  padding: 4rem;
+  margin-left: 27rem;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pCeo {
+  color: var(--greyWhite);
+  font-style: italic;
+  line-height: 1.5rem;
+  z-index: 2;
+}
+
+.ceoInformations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.ceoInformations h3 {
+  color: var(--white);
+}
+
+.ceoInformations span {
+  color: var(--greyWhite);
+  font-size: 0.9rem;
+}
+
+.bike {
+  -webkit-filter: invert(40%);
+  filter: invert(40%);
+  position: absolute;
+  right: 125px;
+  bottom: 0;
+  height: 130px;
+  z-index: -1;
+}
+
+.absoluteButtons {
+  display: flex;
+  gap: 0.6rem;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.rightArrow svg path,
+.leftArrow svg path {
+  fill: black;
+}
+
+.absoluteButtons button {
+  border: 0;
+  padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+  transition: 0.4s;
+}
+
+.absoluteButtons button:hover {
+  background-color: var(--red);
+  transition: 0.4s;
+}
+
+.absoluteButtons button:hover svg path {
+  fill: var(--white);
+}
+
+.absoluteButtons button svg {
+  height: 40px;
+  width: 25px;
+}
+
+.leftArrow svg {
+  rotate: 180deg;
+}
+
+/*brands*/
+
+.brands {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.brands img {
+  transition: 0.5s;
+}
+
+.brands img:hover {
+  cursor: grab;
+  transition: 0.5s;
+  filter: invert(80%);
+}

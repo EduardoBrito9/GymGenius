@@ -6,6 +6,7 @@ import SecondPart from "./HomeParts/SecondPart";
 import ThirdPart from "./HomeParts/ThirdPart";
 import FourthPart from "./HomeParts/FourthPart";
 import FifthPart from "./HomeParts/FifthPart";
+import SixthPart from "./HomeParts/SixthPart";
 
 const Home = ({ informations, setInformations }) => {
   function checkingClick(event) {
@@ -27,6 +28,7 @@ const Home = ({ informations, setInformations }) => {
       <ThirdPart />
       <FourthPart />
       <FifthPart/>
+      <SixthPart/>
     </section>
   );
 };

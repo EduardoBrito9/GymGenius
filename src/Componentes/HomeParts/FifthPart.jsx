@@ -3,7 +3,6 @@ import styles from "./FifthPart.module.css";
 import P from "../Elements/P";
 import Facebook from "../../../images/Facebook.svg?react";
 import Twitter from "../../../images/Twitter.svg?react";
-import Linkedin from "../../../images/Linkedin.svg?react";
 
 const FifthPart = () => {
   return (
