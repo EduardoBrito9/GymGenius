@@ -2,10 +2,9 @@
   background-image: url(https://gymate-iota.vercel.app/static/media/hero-img.40c8355a31f73340b733.jpg);
   background-position: 50%;
   background-size: cover;
-  height: 110vh;
+  height: 100%;
   object-fit: cover;
   width: 100%;
-
 }
 
 .comerce {
