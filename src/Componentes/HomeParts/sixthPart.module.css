@@ -2,6 +2,7 @@
   background: var(--white);
   position: relative;
   object-fit: cover;
+  border-top: 1px solid var(--grayWhite);
 }
 
 .internContainer {
@@ -9,10 +10,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 4rem;
   margin: 0 auto;
   max-width: 85rem;
-  padding: 4rem 4rem 4rem 4rem;
+  padding: 5rem 4rem 4rem 4rem;
+  border-top: 1px solid var(--grayWhite);
+
 }
 
 .ceoBorder {

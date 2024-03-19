@@ -31,7 +31,7 @@ const FourthPart = () => {
             <div className={styles.wecan}>
               <h1>We Can Give A Shape Of Your Body Here!</h1>{" "}
               <p>
-                At Gymate, we are dedicated to helping you achieve the body of
+                At <strong>Gymate</strong>, we are dedicated to helping you achieve the body of
                 your dreams. Our expert trainers and nutritionists will work
                 with you to create a personalized fitness and nutrition plan
                 that helps you reach your specific goals.

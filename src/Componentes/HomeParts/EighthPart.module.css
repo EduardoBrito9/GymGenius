@@ -1,0 +1,80 @@
+.eighth {
+  display: flex;
+  gap: 30rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0rem;
+}
+
+.eighth svg {
+  height: 400px;
+}
+
+.calculatePart {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.calculatePart h1 {
+  font-size: 2.5rem;
+  color: var(--white);
+}
+
+.calculatePart h1 strong {
+  font-weight: 700;
+  color: var(--red);
+}
+
+.calculatePart span {
+  line-height: 1.5rem;
+  max-width: 500px;
+  color: #a1a1a1;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 1.3rem;
+}
+
+.values input {
+  font-family: "Montserrat";
+  color: var(--white);
+  border: 1px solid var(--gray);
+  padding: 1rem 1rem;
+  background-color: transparent;
+}
+
+.values input::placeholder {
+  color: var(--blackLetter);
+  font-size: 0.9rem;
+}
+
+.values span {
+  display: flex;
+  gap: 0.4rem;
+  align-content: end;
+  color: white;
+}
+
+.result {
+  font-weight: 600;
+  color: var(--red);
+}
+
+.calcButton {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--white);
+  background-color: var(--blackBack);
+  width: fit-content;
+  padding: 1rem 1.8rem;
+  transition: 0.3s;
+}
+
+.calcButton:hover {
+  background-color: var(--red);
+  transition: 0.3s;
+}
