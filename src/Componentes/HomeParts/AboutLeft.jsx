@@ -26,7 +26,7 @@ const AboutLeft = ({ informations, setInformations }) => {
   }
 
   return (
-    <section ref={aboutRef} className={`${styles.aboutCC} check`}>
+    <section ref={aboutRef} className={`${styles.aboutCC}`}>
       <div className={styles.init}>
         <img src="../Images/gymweight.png" alt="" />
         <button className={styles.buttonClose}>

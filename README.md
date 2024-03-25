@@ -1,8 +1,22 @@
-# React + Vite
+## Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Requisitos Funcionais (RFs):
+
+## Regras de Negocio (RNs):
+
+## Requisitos nao Funcionais (RNFs):
+
+## Requisitos de codigo
+
+- Tratamento de erros
+- Boa nomeacao de variaveis
+- Evitar logica repetitiva
+- Comentarios que explicam cada funcionalidade
+
+## Anotacoes importantes
+
+- Refatorar o css do projeto para ficar mais limpo e clean
