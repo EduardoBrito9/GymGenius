@@ -1,0 +1,122 @@
+.ninethPart {
+  background: url("https://gymate-iota.vercel.app/static/media/background.83bcfae77cd8ae9f6a48.jpg");
+  border-top: 1px solid var(--grayWhite);
+  position: relative;
+}
+
+.internContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 85rem;
+  padding: 4rem 4rem 4rem 4rem;
+}
+
+.internContainer span {
+  max-width: 500px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 60px;
+}
+
+.planOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem;
+  width: 100%;
+  background: var(--white);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.image {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.plan:hover .absolute,
+.plan:hover .image {
+  transition: 0.5s;
+  filter: grayscale(0%);
+}
+
+.absolute {
+  font-size: 1.3rem;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--white);
+  color: var(--red);
+  position: absolute;
+  top: -38px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.price {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.price span {
+  font-size: 1.4rem;
+}
+
+.symbol {
+  align-self: center;
+}
+
+.permonth {
+  align-self: flex-end;
+}
+
+.price strong {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--red);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.list li {
+  font-weight: 600;
+  color: var(--gray);
+  text-align: center;
+}
+
+.planOptions button {
+  margin-top: 20px;
+  color: var(--white);
+  background-color: var(--red);
+  z-index: 10;
+}
+
+.planOptions button::after {
+  border: 2px solid var(--red);
+  width: 13rem;
+  height: 3rem;
+  left: 95px;
+  bottom: 60px;
+  z-index: 9;
+}
+
+.planOptions button:hover::after {
+  left: 75px;
+  bottom: 50px;
+}
+
+svg path {
+  fill: white;
+}

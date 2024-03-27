@@ -8,7 +8,7 @@
   --white: #f9f9f9;
   --red: rgb(250, 36, 72);
   --redBlack: rgb(236, 15, 34);
-  --gray: rgb(172, 172, 172);
+  --gray: #646464;
   --borderWhite: hsla(0, 0%, 100%, 0.362);
   --black: black;
   --blackLetter: #646464;
@@ -29,7 +29,8 @@ h3,
 h4,
 p,
 span,
-button {
+button,
+li {
   margin: 0px;
   font-family: "Montserrat";
 }
@@ -59,10 +60,10 @@ strong {
 a {
   text-decoration: none;
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .container {

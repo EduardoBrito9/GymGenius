@@ -2,13 +2,16 @@ import React from "react";
 import styles from "./FourthPart.module.css";
 import Button from "../Elements/Button.jsx";
 import P from "../Elements/P.jsx";
+import Arrow from "../../../images/Arrow.svg?react";
 
 const FourthPart = () => {
   return (
     <section className={styles.fourthPart}>
       <div className={styles.redAd}>
         <h1>We are Always Providing Best Fitness Service For You</h1>
-        <Button>JOIN WITH US</Button>
+        <Button>
+          JOIN WITH US <Arrow />
+        </Button>
       </div>
       <section className={styles.internContainer}>
         <div className={styles.GiveShape}>
@@ -31,10 +34,11 @@ const FourthPart = () => {
             <div className={styles.wecan}>
               <h1>We Can Give A Shape Of Your Body Here!</h1>{" "}
               <p>
-                At <strong>Gymate</strong>, we are dedicated to helping you achieve the body of
-                your dreams. Our expert trainers and nutritionists will work
-                with you to create a personalized fitness and nutrition plan
-                that helps you reach your specific goals.
+                At <strong>Gymate</strong>, we are dedicated to helping you
+                achieve the body of your dreams. Our expert trainers and
+                nutritionists will work with you to create a personalized
+                fitness and nutrition plan that helps you reach your specific
+                goals.
               </p>
             </div>
             <div className={styles.forms}>
@@ -68,7 +72,9 @@ const FourthPart = () => {
                 <h3>Fresh Bottle Watter</h3>
               </div>
             </div>
-            <Button>OUR CLASSES</Button>
+            <Button>
+              OUR CLASSES <Arrow />{" "}
+            </Button>
           </div>
         </div>
       </section>

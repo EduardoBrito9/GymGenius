@@ -1,15 +1,14 @@
 import React from "react";
 import styles from "./ThirdPart.module.css";
 import P from "../Elements/P";
+import Title from "../Elements/Title";
 
 const ThirdPart = () => {
   return (
     <section className={styles.thirdPart}>
       <section className={styles.internContainer}>
         <P>OUR FEATURED CLASS</P>
-        <h1 className={styles.offering}>
-          We Are Offering Best Flexible Classes
-        </h1>
+        <Title> We Are Offering Best Flexible Classes</Title>
         <div className={styles.typeWorkouts}>
           <div className={styles.workdiv}>
             <h1>Cycling</h1> <span>Wednesday: 9:00am-10:00am</span>

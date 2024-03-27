@@ -15,23 +15,10 @@
   padding: 4rem 4rem 4rem 4rem;
 }
 
-.internContainer h1 {
-  font-size: 2rem;
-}
-
 .absoluteImg {
   position: absolute;
   right: 20px;
   top: 80px;
-}
-
-.sevenp {
-  max-width: 650px;
-  text-align: center;
-  font-weight: 500;
-  color: var(--gray);
-  font-size: 0.9rem;
-  line-height: 1.5rem;
 }
 
 .photosGallery {

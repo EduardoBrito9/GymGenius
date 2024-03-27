@@ -9,6 +9,7 @@ import Machine from "../../../images/machine.svg?react";
 import Modern from "../../../images/modern.svg?react";
 import Professional from "../../../images/ProfessionalWeight.svg?react";
 import P from "../Elements/P";
+import Title from "../Elements/Title";
 
 const SecondPart = () => {
   return (
@@ -44,8 +45,8 @@ const SecondPart = () => {
         <div className={styles.whoweare}>
           <div className={styles.takeatour}>
             <P>WHO WE ARE</P>
-            <div>
-              <h1>Take Your Health And Body To Next Level </h1>
+            <div className={styles.tp}>
+              <Title>Take Your Health And Body To Next Level</Title>
               <p className={styles.textHealth}>
                 Take your health and body to the next level with our
                 comprehensive program designed to help you reach your fitness

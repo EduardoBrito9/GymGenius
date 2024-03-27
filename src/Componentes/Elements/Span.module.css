@@ -1,0 +1,8 @@
+.span {
+    max-width: 650px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--gray);
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }

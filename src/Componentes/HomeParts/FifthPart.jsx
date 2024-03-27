@@ -3,6 +3,8 @@ import styles from "./FifthPart.module.css";
 import P from "../Elements/P";
 import Facebook from "../../../images/Facebook.svg?react";
 import Twitter from "../../../images/Twitter.svg?react";
+import Title from "../Elements/Title";
+import Span from "../Elements/Span";
 
 const FifthPart = () => {
   return (
@@ -10,11 +12,9 @@ const FifthPart = () => {
       <section className={styles.internContainer}>
         <div className={styles.textExpert}>
           <P>GYM TRAINERS</P>
-          <h1>Team Of Expert Coaches</h1>
-          <p>
-            Expert team of coaches helps you succeed in any goal, personalized
-            guidance and motivation provided!
-          </p>
+         <Title>Team Of Expert Coaches</Title>
+          <Span> Expert team of coaches helps you succeed in any goal, personalized
+            guidance and motivation provided!</Span>
         </div>
         <div className={styles.divTrainers}>
           <div className={styles.trainers}>
