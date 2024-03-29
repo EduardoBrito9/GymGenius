@@ -10,6 +10,9 @@ import SixthPart from "./HomeParts/SixthPart";
 import SeventhPart from "./HomeParts/SeventhPart";
 import EighthPart from "./HomeParts/EighthPart";
 import NinethPart from "./HomeParts/NinethPart";
+import TenthPart from "./HomeParts/TenthPart";
+import Eleventh from "./HomeParts/Eleventh";
+import Footer from "../Footer";
 
 const Home = ({ informations, setInformations }) => {
   function checkingClick(event) {
@@ -35,6 +38,9 @@ const Home = ({ informations, setInformations }) => {
       <SeventhPart/>
       <EighthPart/>
       <NinethPart/>
+      <TenthPart/>
+      <Eleventh/>
+      <Footer/>
     </section>
   );
 };

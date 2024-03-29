@@ -1,0 +1,48 @@
+.eleventhPart {
+  background-image: url("https://gymate-iota.vercel.app/static/media/background.f24e8c4144bb6907ac96.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  object-fit: cover;
+  height: 300px;
+  display: flex;
+}
+
+.infFitnessTrainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 4rem 0rem;
+  margin-left: 22rem;
+  position: relative;
+}
+
+.infFitnessTrainer h1 {
+  font-size: 2.1rem;
+  color: var(--white);
+}
+
+.infFitnessTrainer h3 {
+  color: var(--white);
+  font-size: 1.8rem;
+}
+
+.infFitnessTrainer h3 strong {
+  color: var(--red);
+  font-weight: 800;
+}
+
+.infFitnessTrainer button {
+  color: var(--white);
+  background-color: var(--strongRed);
+  margin-top: 30px;
+}
+
+.infFitnessTrainer button::after {
+  border-color: var(--strongRed);
+  bottom: 67px;
+}
+
+.infFitnessTrainer button:hover::after {
+  bottom: 57px;
+}

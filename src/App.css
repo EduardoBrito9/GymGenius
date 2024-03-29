@@ -5,6 +5,7 @@
 }
 
 :root {
+  --strongRed: rgb(255, 26, 57);
   --white: #f9f9f9;
   --red: rgb(250, 36, 72);
   --redBlack: rgb(236, 15, 34);
@@ -21,6 +22,10 @@ body {
   color: #333;
   background-color: #070807;
   overflow-x: hidden;
+}
+
+li, ul {
+  width: fit-content;
 }
 
 h1,

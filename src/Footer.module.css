@@ -1,0 +1,130 @@
+.footer {
+  background: var(--white);
+  display: flex;
+}
+.internContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 1rem;
+  padding: 6rem 3rem;
+  margin: 0 auto;
+  max-width: 75rem;
+}
+
+/*first part of footer*/
+
+.gymFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.textInformation {
+  color: var(--blackLetter);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.gymFooter img {
+  width: 60px;
+}
+
+.end {
+  color: var(--blackLetter);
+  font-size: 0.96rem;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 260px;
+}
+
+/*midias buttons*/
+
+.midias {
+  display: flex;
+  gap: 1rem;
+}
+
+.midias button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 55%;
+  background-color: #efefef;
+  border: 0;
+  transition: 0.3s;
+}
+
+.midias button:hover {
+  cursor: default;
+  transition: 0.3s;
+  background-color: var(--red);
+}
+
+.midias button:hover svg path {
+  fill: var(--white);
+}
+
+.midias button svg {
+  width: 23px;
+  height: 22px;
+}
+
+.midias button svg path {
+  fill: var(--blackLetter);
+}
+
+/*OUR CLASSES*/
+
+.ourClasses {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerTitle {
+  color: var(--black);
+  font-size: 1.5rem;
+}
+
+.border {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 90px;
+  background-color: var(--red);
+}
+
+.listOurClasses {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 0.99rem;
+  font-weight: 600;
+  color: var(--blackLetter);
+}
+
+.listOurClasses li {
+  transition: 0.3s;
+}
+
+.listOurClasses li:hover {
+  color: var(--red);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/*workingHours*/
+
+.bold {
+  font-weight: 800;
+  color: var(--blackLetter);
+}
+
+.normal {
+  font-weight: 500;
+}
